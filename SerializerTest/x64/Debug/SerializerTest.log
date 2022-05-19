@@ -1,0 +1,5 @@
+﻿  SerializerTest.cpp
+D:\work\tests\SerializerTest\SerializerTest\SerializerTest.cpp(74,1): warning C4311: reinterpret_cast: усечение указателя из "ListNode *" в "int"
+D:\work\tests\SerializerTest\SerializerTest\SerializerTest.cpp(74,1): warning C4302: reinterpret_cast: усечение из "ListNode *" к "int"
+D:\work\tests\SerializerTest\SerializerTest\SerializerTest.cpp(132): warning C4715: ListRand::GetRandomElement: значение возвращается не при всех путях выполнения
+  SerializerTest.vcxproj -> D:\work\tests\SerializerTest\x64\Debug\SerializerTest.exe
