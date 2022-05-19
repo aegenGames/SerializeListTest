@@ -32,5 +32,3 @@
 *.app
 
 .vs
-/x64/
-SerializerTest/x64/
