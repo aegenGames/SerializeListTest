@@ -73,6 +73,13 @@ class ListRand
 			{
 				stream << reinterpret_cast <int> (node->Rand->Prev) << endl;
 			}
+
+			ListNode* tmpNode = nullptr;
+			for (auto node = this->Head; node != nullptr; node = node->Next)
+			{
+				node->Prev = tmpNode;
+				tmpNode = node;
+			}
 		}
 
 		void Deserialize(istream & stream) {
